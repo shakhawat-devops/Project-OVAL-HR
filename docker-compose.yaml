@@ -29,7 +29,6 @@ services:
       SERVICE_NAME: mysql
     volumes:
       - ./mysql/my.cnf:/etc/mysql/my.cnf
-      - dbdata:/var/lib/mysql
       - ./mysql:/docker-entrypoint-initdb.d
     networks:
       - app-network
@@ -49,7 +48,3 @@ services:
 networks:
   app-network:
     driver: bridge
-#Volumes
-volumes:
-  dbdata:
-    driver: local
