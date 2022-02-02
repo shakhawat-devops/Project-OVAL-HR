@@ -7,4 +7,4 @@ CREATE TABLE `devops_tools` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-INSERT INTO `devops_tools` (name, worked) VALUES ('Multi-Cloud',0),('Kubernetes',1),('Hashicorp Vault',0),('Docker',1),('Velero',1),('Helm',1),('Istio',1);
+INSERT INTO `devops_tools` (name, worked) VALUES ('Multi-Cloud',0),('Kubernetes',1),('Hashicorp Vault',0),('Docker',1),('Velero',1),('Helm',1),('Istio',1),('Zabbix',1);
